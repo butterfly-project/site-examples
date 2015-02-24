@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "44f724b6f869d73f91212fea1b3c7d08",
+    "packages": [
+        {
+            "name": "butterfly/form",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/butterfly-project/form.git",
+                "reference": "94f97ed9879d6ca1ecc6569e93cceb33e6e41137"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/butterfly-project/form/zipball/94f97ed9879d6ca1ecc6569e93cceb33e6e41137",
+                "reference": "94f97ed9879d6ca1ecc6569e93cceb33e6e41137",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Butterfly\\Component\\Form\\": "src/",
+                    "Butterfly\\Component\\Form\\Tests\\": "tests/unit/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marat Fakhertdinov",
+                    "email": "marat.fakhertdinov@gmail.com"
+                }
+            ],
+            "description": "Butterfly PHP. Form Component",
+            "keywords": [
+                "form"
+            ],
+            "time": "2015-02-23 11:55:09"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}
