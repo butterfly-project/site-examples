@@ -1,19 +1,19 @@
 <?php
 
-namespace Example_4_1;
+namespace Example;
 
 use Butterfly\Component\Form\ScalarConstraint;
-use Butterfly\Component\Form\Validation\Type;
 
 $rootDir = realpath(__DIR__ . '/../..');
 require_once $rootDir . '/vendor/autoload.php';
+require_once __DIR__ . '/CustomValidator.php';
 
 // Инициализация
 $form = ScalarConstraint::create()
-    ->addValidator(new Type(Type::TYPE_INT), 'Значение должно быть целым числом');
+    ->addValidator(new CustomValidator(2, 1000), 'Значение не подходит под условие');
 
 // Фильтрация
-$form->filter(100);
+$form->filter(250);
 
 // Проверить валидность
-var_dump($form->isValid());  // bool(true)
+var_dump($form->isValid()); // bool(true)

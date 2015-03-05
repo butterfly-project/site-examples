@@ -1,6 +1,6 @@
 <?php
 
-namespace Example_4_5;
+namespace Example;
 
 use Butterfly\Component\Form\ScalarConstraint;
 use Butterfly\Component\Form\Validation\Compare;

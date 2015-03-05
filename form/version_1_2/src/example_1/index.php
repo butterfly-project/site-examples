@@ -1,6 +1,6 @@
 <?php
 
-namespace Example_2_1;
+namespace Example;
 
 use Butterfly\Component\Form\ArrayConstraint;
 use Butterfly\Component\Form\Transform\Trim;
